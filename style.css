@@ -1,0 +1,137 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: rgba(249, 245, 239, 1);
+    color: white;
+    color: rgb(80, 44, 30);
+}
+
+header {
+    background: linear-gradient(45deg, rgb(255, 180, 128), rgb(227, 150, 62));
+    color: rgb(80, 44, 30);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.logo-image{
+    height: 15vh;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(80, 44, 30);
+}
+
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+    color: #f7a727;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    text-align: center;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+#about div, #facts{
+    margin: auto;
+    width: 40%;
+}
+
+section img{
+    height: 40vh;
+    width: 20%;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-image{
+    background-image: url("Images/background2.png");
+}
+
+.second-image{
+    background-image: url("Images/background.png");
+}
+
+ul li{
+    list-style: none;
+}
+
+footer {
+    /*
+    background-color: rgb(227, 150, 62);
+    */
+    background: linear-gradient(45deg, rgb(255, 180, 128), rgb(227, 150, 62));
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.follow-us{
+    text-align: center;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-icons img{
+    height: 5vh;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 50%;
+    height: 4vh;
+    background-color: rgb(190, 42, 42);
+    color: white;
+}
